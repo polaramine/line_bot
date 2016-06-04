@@ -1,0 +1,36 @@
+{
+    "name": "LineBot",
+    "description": "Linebot",
+    "website": "https://example.com",
+    "repository": "https://github.com/example/linebot",
+    "keywords": [
+        "python"
+    ],
+    "success_url": "/",
+    "env": {
+        "LINE_CHANNEL_ID": {
+            "description": "Channel ID",
+            "required": true
+            "value": "1463149075"
+        },
+        "LINE_CHANNEL_SECRET": {
+            "description": "Channel secret",
+            "required": true,
+            "value": "6d8dd63308cd989300ce1d5ee1a3f606"
+        },
+        "LINE_CHANNEL_MID": {
+            "description": "Channel MID",
+            "required": true
+            "value": "u9d4d2a046be65f5840ab9966b6482232"
+        },
+        "DOCOMO_API_KEY": {
+            "description": "Docomo Developer API Key",
+            "required": true,
+            "value": "564a4c6e2e45524456354c4c4a304739716c4b68435a4f5633704d777455742f32525a41622e3764445944",
+
+        }
+    },
+    "addons": [
+        "fixie:tricycle"
+    ]
+}
