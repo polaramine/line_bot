@@ -14,7 +14,7 @@
         },
         "LINE_CHANNEL_SECRET": {
             "description": "Channel secret",
-            "required": true,
+            "required": true
         },
         "LINE_CHANNEL_MID": {
             "description": "Channel MID",
@@ -22,8 +22,7 @@
         },
         "DOCOMO_API_KEY": {
             "description": "Docomo Developer API Key",
-            "required": true,
-
+            "required": true
         }
     },
     "addons": [
