@@ -36,7 +36,11 @@ class CallbackResource(object):
     }
 
     # docomo
-    user = {'t': 20}  # 20:kansai character
+    user = {
+            't': 20,
+            'age': 10,
+            'sex': "女"
+            }  # 20:kansai character
     docomo_client = doco.client.Client(apikey=DOCOMO_API_KEY, user=user)
 
     def on_post(self, req, resp):
