@@ -39,7 +39,7 @@ class CallbackResource(object):
     user = {
             'birthdateM': 12, 'birthdateD': 31,
             't': 20,
-            'age': 10,
+            'age': 16,
             'sex': "女",
             "bloodtype":"A",
             "nickname":"光",
